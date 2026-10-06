@@ -697,9 +697,9 @@ jobs:
           </html>
           DASHBOARD
 
-        - name: Send Email with Dashboard
-        uses: dawidd6/action-send-mail@v3
-        with:
+      -  name: Send Email with Dashboard
+         uses: dawidd6/action-send-mail@v3
+         with:
           server_address: smtp.hostinger.com
           server_port: 465
           secure: true
